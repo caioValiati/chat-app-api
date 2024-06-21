@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using messageApp_backend.Models;
-using System.Net.WebSockets;
-using System.Text;
-using System.Threading;
 using Microsoft.AspNetCore.Authorization;
+using messageApp_backend.models;
 
 namespace messageApp_backend.Controllers
 {
@@ -18,17 +11,53 @@ namespace messageApp_backend.Controllers
     public class MessagesController : ControllerBase
     {
         private readonly MessageContext _context;
+        private readonly UserContext _userContext;
 
-        public MessagesController(MessageContext context)
+        public MessagesController(MessageContext context, UserContext userContext)
         {
             _context = context;
+            _userContext = userContext;
         }
 
-        [HttpGet]
+        [HttpGet("{userId1}/{userId2}")]
         [Authorize]
-        public async Task<ActionResult<IEnumerable<Message>>> GetMessages()
+        public async Task<ActionResult<IEnumerable<Message>>> GetMessages(int userId1, int userId2)
         {
-            return await _context.Messages.ToListAsync();
+            var messages = await _context.Messages
+                .Where(m => (m.UsuarioDestinatarioId == userId1 && m.UsuarioRemetenteId == userId2) ||
+                            (m.UsuarioDestinatarioId == userId2 && m.UsuarioRemetenteId == userId1))
+                .ToListAsync();
+
+            
+            return Ok(messages);
+        }
+
+        public class UserWithMessage
+        {
+            public Message Message { get; set; }
+            public User User { get; set; }
+        }
+
+        [HttpGet("{userId}")]
+        [Authorize]
+        public async Task<ActionResult<IEnumerable<UserWithMessage>>> GetLastMessages(int userId)
+        {
+            var messages = await _context.Messages
+                .Where(m => m.UsuarioDestinatarioId == userId || m.UsuarioRemetenteId == userId)
+                .GroupBy(m => new { m.UsuarioDestinatarioId, m.UsuarioRemetenteId })
+                .Select(group => new UserWithMessage
+                {
+                    Message = group.OrderByDescending(m => m.DataEnvio).FirstOrDefault(),
+                    User = GetUserById(group.Key.UsuarioDestinatarioId == userId ? group.Key.UsuarioRemetenteId : group.Key.UsuarioDestinatarioId)
+                })
+                .ToListAsync();
+
+            return Ok(messages);
+        }
+
+        private User GetUserById(int userId)
+        {
+            return _userContext.Users.Find(userId);
         }
     }
 }

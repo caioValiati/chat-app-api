@@ -8,8 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\ContactsController.cs" />
+    <Compile Remove="Controllers\TestesController.cs" />
+    <Compile Remove="Models\Contact.cs" />
+    <Compile Remove="Models\ContactContext.cs" />
+    <Compile Remove="Models\Teste.cs" />
+    <Compile Remove="Models\TesteContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
       <PrivateAssets>all</PrivateAssets>

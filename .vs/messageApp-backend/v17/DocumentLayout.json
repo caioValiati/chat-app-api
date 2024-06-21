@@ -1,38 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\",
+  "WorkspaceRootPath": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\websocket\\messageapp-backend\\messageapp-backend\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\messageapp-backend\\messageapp-backend\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\websocket\\messageapp-backend\\messageapp-backend\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\websocket\\messageapp-backend\\messageapp-backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\websocket\\messageapp-backend\\messageapp-backend\\connectedusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\connectedusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\websocket\\messageapp-backend\\messageapp-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\messageapp-backend\\messageapp-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\websocket\\messageapp-backend\\messageapp-backend\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\messageapp-backend\\messageapp-backend\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\websocket\\messageapp-backend\\messageapp-backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\messageapp-backend\\messageapp-backend\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\websocket\\messageapp-backend\\messageapp-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\messageapp-backend\\messageapp-backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\messageapp-backend\\messageapp-backend\\models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|c:\\users\\caiogeraldo\\source\\repos\\testes\\messageapp-backend\\messageapp-backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB2BBE9-2AD2-486A-A758-6E7602DED9F9}|messageApp-backend\\messageApp-backend.csproj|solutionrelative:messageapp-backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +38,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MessagesController.cs",
-              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Controllers\\MessagesController.cs",
+              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Controllers\\MessagesController.cs",
               "RelativeDocumentMoniker": "messageApp-backend\\Controllers\\MessagesController.cs",
-              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Controllers\\MessagesController.cs",
+              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Controllers\\MessagesController.cs",
               "RelativeToolTip": "messageApp-backend\\Controllers\\MessagesController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAABLAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T12:58:54.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T13:17:31.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConnectedUsers.cs",
-              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\ConnectedUsers.cs",
-              "RelativeDocumentMoniker": "messageApp-backend\\ConnectedUsers.cs",
-              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\ConnectedUsers.cs",
-              "RelativeToolTip": "messageApp-backend\\ConnectedUsers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "DocumentIndex": 2,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "messageApp-backend\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Models\\Message.cs",
+              "RelativeToolTip": "messageApp-backend\\Models\\Message.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T12:28:08.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T20:48:08.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Program.cs",
+              "RelativeDocumentMoniker": "messageApp-backend\\Program.cs",
+              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Program.cs",
+              "RelativeToolTip": "messageApp-backend\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T20:36:13.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Models\\UserContext.cs",
+              "RelativeDocumentMoniker": "messageApp-backend\\Models\\UserContext.cs",
+              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Models\\UserContext.cs",
+              "RelativeToolTip": "messageApp-backend\\Models\\UserContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T14:37:52.394Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Models\\User.cs",
               "RelativeDocumentMoniker": "messageApp-backend\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Models\\User.cs",
               "RelativeToolTip": "messageApp-backend\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:38:09.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T14:31:26.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Models\\Message.cs",
-              "RelativeDocumentMoniker": "messageApp-backend\\Models\\Message.cs",
-              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Models\\Message.cs",
-              "RelativeToolTip": "messageApp-backend\\Models\\Message.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "messageApp-backend\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "messageApp-backend\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAkwIIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:06:43.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T14:31:09.356Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MessageHub.cs",
-              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Hubs\\MessageHub.cs",
+              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Hubs\\MessageHub.cs",
               "RelativeDocumentMoniker": "messageApp-backend\\Hubs\\MessageHub.cs",
-              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Hubs\\MessageHub.cs",
+              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\Hubs\\MessageHub.cs",
               "RelativeToolTip": "messageApp-backend\\Hubs\\MessageHub.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAwwJcAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:06:17.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\appsettings.json",
-              "RelativeDocumentMoniker": "messageApp-backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\appsettings.json",
-              "RelativeToolTip": "messageApp-backend\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-16T12:13:57.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Program.cs",
-              "RelativeDocumentMoniker": "messageApp-backend\\Program.cs",
-              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Program.cs",
-              "RelativeToolTip": "messageApp-backend\\Program.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAABoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T18:30:57.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "messageApp-backend\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "messageApp-backend\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwCgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:53:31.275Z",
+              "WhenOpened": "2024-06-17T20:40:21.093Z",
               "EditorCaption": ""
             }
           ]

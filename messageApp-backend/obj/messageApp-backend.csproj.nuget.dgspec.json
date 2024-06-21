@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\messageApp-backend.csproj": {}
+    "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\messageApp-backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\messageApp-backend.csproj": {
+    "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\messageApp-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\messageApp-backend.csproj",
+        "projectUniqueName": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\messageApp-backend.csproj",
         "projectName": "messageApp-backend",
-        "projectPath": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\messageApp-backend.csproj",
+        "projectPath": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\messageApp-backend.csproj",
         "packagesPath": "C:\\Users\\CaioGeraldo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\websocket\\messageApp-backend\\messageApp-backend\\obj\\",
+        "outputPath": "C:\\Users\\CaioGeraldo\\source\\repos\\testes\\messageApp-backend\\messageApp-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CaioGeraldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/comigo/_packaging/Comigo.Integrations/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -52,6 +53,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",

@@ -3,7 +3,6 @@ using messageApp_backend.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using SignalRProject.Hubs;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.Extensions.Configuration;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -32,8 +31,15 @@ builder.Services.AddAuthentication(x =>
 });
 
 builder.Services.AddControllersWithViews();
-builder.Services.AddControllers();
-builder.Services.AddSignalR();
+builder.Services.AddControllers(); 
+builder.Services.AddControllers().AddNewtonsoftJson(options =>
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+);
+builder.Services.AddSignalR(options =>
+{
+    options.EnableDetailedErrors = true;
+    options.MaximumReceiveMessageSize = null;
+});
 
 builder.Services.AddDbContext<UserContext>(opt =>
     opt.UseInMemoryDatabase("Users"));
